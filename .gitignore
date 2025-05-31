@@ -1,0 +1,8 @@
+__pycache__
+.elasticbeanstalk
+.vscode
+backup
+.ebignore
+.env
+test.py
+.conda
