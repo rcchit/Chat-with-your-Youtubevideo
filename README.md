@@ -40,8 +40,3 @@ $ python application.py
 ## Step 4: Enjoy your experience with the application!
 Load your video and ask your questions.
 
-![image](https://github.com/cgudivad/Chat-with-your-Youtube-Video/assets/126507537/62a48673-938f-49ae-919d-2cfc1e6efcf8)
-
-## Credits
-#### This application is inspired by an Youtube Video made by **Underfitted**: https://www.youtube.com/watch?v=BrsocJb-fAo
-#### Check out his channel for more interesting videos: https://www.youtube.com/@underfitted
