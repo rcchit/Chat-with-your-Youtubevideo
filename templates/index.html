@@ -21,7 +21,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="{{ url_for('static', filename= 'js/scripts.js') }}"></script>
@@ -75,16 +75,16 @@
       <form class="fade-in-up">
         <div class="form-check form-switch float-end mb-4">
           <input class="form-check-input" type="checkbox" id="darkModeSwitch" name="darkmode" checked>
-          <label class="form-check-label" for="darkModeSwitch"><b>🌙 Dark Mode</b></label>
+          <label class="form-check-label" for="darkModeSwitch"><b>Dark Mode</b></label>
         </div>
 
         <div class="my-2 fade-in-up">
           <div class="ms-2 mb-1 d-flex align-items-center">
             <img class="label-img url-img" src="{{ url_for('static', filename= 'images/url.svg') }}" alt="URL Icon" />
-            <label class="form-label ms-1 mb-0" for="url"><b>🎥 YouTube URL</b></label>
+            <label class="form-label ms-1 mb-0" for="url"><b>Youtube URL</b></label>
           </div>
           <input class="form-control" type="text" id="url" name="url"
-            placeholder="Paste your YouTube video URL here... 🚀" />
+            placeholder="Enter Youtube URL" />
         </div>
         <div class="d-flex justify-content-center fade-in-up">
           <button class="btn btn-primary btn-custom px-1" id="loadButton" name="action" value="load"><span
@@ -95,10 +95,10 @@
           <div class="ms-1 mb-1 d-flex align-items-center">
             <img class="label-img prompt-img" src="{{ url_for('static', filename= 'images/prompt.png') }}"
               alt="Question Icon" />
-            <label class="form-label ms-1 mb-0" for="prompt"><b>💭 Your Question</b></label>
+            <label class="form-label ms-1 mb-0" for="prompt"><b>Prompt</b></label>
           </div>
           <textarea class="form-control textarea" id="prompt" name="prompt"
-            placeholder="Ask me anything about this video... ✨"></textarea>
+            placeholder="Enter Your Prompt"></textarea>
         </div>
         <div class="d-flex flex-wrap justify-content-center align-items-center fade-in-up">
           <div class="form-check me-3 mb-2">
