@@ -25,8 +25,8 @@ if not EMBEDDINGS_MODEL:
     EMBEDDINGS_MODEL = "text-embedding-ada-002"
 
 # Global variables for Pinecone client and index
-# pinecone_client = None
-# pinecone_index = None
+pinecone_client = None
+pinecone_index = None
 
 parser = StrOutputParser()
 template = """
